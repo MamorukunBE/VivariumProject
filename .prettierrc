@@ -1,0 +1,14 @@
+{
+   "printWidth": 100,
+   "tabWidth": 3,
+   "useTabs": false,
+   "singleQuote": true,
+   "overrides": [
+      {
+         "files": "*.html",
+         "options": {
+            "parser": "angular"
+         }
+      }
+   ]
+}

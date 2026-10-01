@@ -1,0 +1,29 @@
+/* The application fills the window; its root element is the positioning reference of overlays. */
+html,
+body,
+app-root {
+   display: block;
+   position: relative;
+   margin: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   background: #11141a;
+}
+
+/* Debugging overlay: a half-transparent black panel flush with the top-left corner of the canvas. */
+.debugger {
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 6px 10px;
+   border-bottom-right-radius: 10px;
+   background: rgb(0 0 0 / 0.5);
+   color: #ffffff;
+   white-space: pre;
+   font:
+      12px/1.5 ui-monospace,
+      Consolas,
+      monospace;
+   pointer-events: none;
+}
